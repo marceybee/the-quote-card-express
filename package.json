@@ -4,13 +4,25 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceybee/the-quote-card-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marceybee/the-quote-card-express/issues"
+  },
+  "homepage": "https://github.com/marceybee/the-quote-card-express#readme"
 }
